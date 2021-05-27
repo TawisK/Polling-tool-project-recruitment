@@ -1,0 +1,23 @@
+<div>
+  <section id="pollList">
+    <h2>Vote for your favourite sport!</h2>
+    <ul>
+      <li *ngFor="let sport of sports">
+        <img [src]="sport.image" 
+            [alt]="sport.name" 
+            (click)="castVote(sport.indexName)" 
+            [ngClass]="getVoteClasses(sport.indexName)">
+        <h4>{{ sport.name }}</h4>
+      </li>
+    </ul>
+  </section>
+  <section id="results">
+    <h2>Thanks for your vote!</h2>
+    <h2>How others voted?</h2>
+    <ul>
+      <li *ngFor="let vote of voteCount">
+        <h3>{{ vote.name }}: {{ vote.count }}</h3>
+      </li>
+    </ul>
+  </section>
+</div>

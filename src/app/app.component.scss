@@ -1,0 +1,62 @@
+div {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    #pollList {
+      border: 5px solid rgb(0, 0, 0);
+    }
+    #results {
+      border: 5px solid rgb(0, 0, 0);
+      display: none;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      justify-content: center;
+      h2 {
+        display: block;
+      }
+      li {
+        padding: 20px;
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          box-shadow: 0 3px 4px 1px rgba(0, 0, 0, 0.1);
+          filter: grayscale(1);
+          border: 4px solid rgba(0, 0, 0, 0.2);
+          cursor: pointer;
+          &.elect {
+            border: 3px solid rgb(204, 54, 54);
+            box-shadow: 0 4px 7px 1px rgba(0, 0, 0, 0.1);
+            filter: grayscale(0);
+            cursor: default;
+          }
+          &.lost {
+            box-shadow: unset;
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            &:hover {
+              filter: grayscale(1);
+              cursor: default;
+            }
+          }
+          &:hover {
+            filter: grayscale(0);
+          }
+        }
+        h4 {
+          font-size: 16px;
+          opacity: 0.9;
+          margin-bottom: 8px;
+          font-weight: lighter;
+        }
+        p {
+          font-size: 14px;
+          opacity: 0.6;
+          font-weight: bold;
+          margin: 4px 0;
+        }
+      }
+    }
+  }
