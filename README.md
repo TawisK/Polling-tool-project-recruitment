@@ -16,6 +16,7 @@ MongoDB Database Tools are required for this.
 When our database is ready, it's time to start our server and then client. In order to do this, navigate the command prompt to the root of a project and use these commands:
 * 'node server.js' - to start the node server
 * 'ng serve' - this will start Angular app
+
 Notice that you have to use separate command prompts for above commands to be working.
 
 ## Using the application
