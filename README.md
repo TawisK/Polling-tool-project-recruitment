@@ -20,3 +20,7 @@ Notice that you have to use separate command prompts for above commands to be wo
 
 ## Using the application
 
+After succesfully starting all three components (front-end, back-end and database host)
+
+* Open browser and go to "http://localhost:4200/"
+* Answer the question and see poll results after
