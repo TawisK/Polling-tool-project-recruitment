@@ -1,0 +1,4 @@
+{"_id":{"$oid":"60ae589c0e4ca4cb5cd59989"},"name":"soccer","count":1}
+{"_id":{"$oid":"60ae58c00e4ca4cb5cd5998a"},"name":"volleyball","count":5}
+{"_id":{"$oid":"60ae58d10e4ca4cb5cd5998b"},"name":"basketball","count":10}
+{"_id":{"$oid":"60ae58d90e4ca4cb5cd5998c"},"name":"hockey","count":1}
